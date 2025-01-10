@@ -14,7 +14,7 @@ import 'package:share_plus/share_plus.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final cameras = await availableCameras();  //correct this line
+  final cameras = await availableCameras();  //correct this line from the pavan repo
   runApp(TextRecognitionApp(cameras: cameras));
 }
 
